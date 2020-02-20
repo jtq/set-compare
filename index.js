@@ -1,12 +1,10 @@
 
-const toArray = (set) => [ ...set ];
-
 // Return all elements in sets a|b
 const union = (a, b) => {
     a = a instanceof Set ? a : new Set(a);
     b = b instanceof Set ? b : new Set(b);
 
-    return new Set([ ...a.values(), ...b.values() ]);
+    return new Set([ ...a, ...b ]);
 };
 
 // Return all elements in sets a&b
