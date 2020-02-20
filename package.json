@@ -1,0 +1,25 @@
+{
+  "name": "set-compare",
+  "version": "0.0.1",
+  "description": "Compare elements in sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "set",
+    "compare",
+    "comparison",
+    "equal",
+    "equivalent",
+    "unique",
+    "intersection",
+    "intersect",
+    "union"
+  ],
+  "author": "James Palmer",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.3.0"
+  }
+}
