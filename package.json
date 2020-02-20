@@ -1,7 +1,15 @@
 {
-  "name": "set-compare",
-  "version": "0.0.1",
+  "name": "@jtq/set-compare",
+  "version": "1.0.0",
   "description": "Compare elements in sets",
+  "homepage": "https://github.com/jtq/set-compare#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jtq/set-compare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jtq/set-compare/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -15,7 +23,13 @@
     "unique",
     "intersection",
     "intersect",
-    "union"
+    "union",
+    "difference",
+    "disjunctive union",
+    "subset",
+    "strict subset",
+    "superset",
+    "strict superset"
   ],
   "author": "James Palmer",
   "license": "ISC",

@@ -62,7 +62,6 @@ const isSupersetOf = (a, b) => {
 
 
 module.exports = {
-    toArray,
     union,
     intersection,
     difference,
